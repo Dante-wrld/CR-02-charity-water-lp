@@ -115,7 +115,8 @@ p {
   font-weight: bold;
   border-radius: 8px;
   cursor: pointer;
-  margin-bottom: 2rem;
+  display: block;
+  margin: 0 auto 2rem;
 }
 
 .search-bar input {
@@ -125,6 +126,12 @@ p {
   border-radius: 6px;
   border: 1px solid #ccc;
   margin-bottom: 2rem;
+}
+
+/* Keep search bar left-aligned like the paragraph */
+.search-section {
+  align-self: flex-start;
+  width: 100%;
 }
 
 footer {
